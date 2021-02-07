@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/doc-reader/static/css/main.2c8169cb.chunk.css",
+    "main.js": "/doc-reader/static/js/main.df428d89.chunk.js",
+    "main.js.map": "/doc-reader/static/js/main.df428d89.chunk.js.map",
+    "runtime-main.js": "/doc-reader/static/js/runtime-main.b4645ccb.js",
+    "runtime-main.js.map": "/doc-reader/static/js/runtime-main.b4645ccb.js.map",
+    "static/css/2.79c08235.chunk.css": "/doc-reader/static/css/2.79c08235.chunk.css",
+    "static/js/2.a6e8ffa5.chunk.js": "/doc-reader/static/js/2.a6e8ffa5.chunk.js",
+    "static/js/2.a6e8ffa5.chunk.js.map": "/doc-reader/static/js/2.a6e8ffa5.chunk.js.map",
+    "static/js/3.0da82279.chunk.js": "/doc-reader/static/js/3.0da82279.chunk.js",
+    "static/js/3.0da82279.chunk.js.map": "/doc-reader/static/js/3.0da82279.chunk.js.map",
+    "index.html": "/doc-reader/index.html",
+    "static/css/2.79c08235.chunk.css.map": "/doc-reader/static/css/2.79c08235.chunk.css.map",
+    "static/css/main.2c8169cb.chunk.css.map": "/doc-reader/static/css/main.2c8169cb.chunk.css.map",
+    "static/js/2.a6e8ffa5.chunk.js.LICENSE.txt": "/doc-reader/static/js/2.a6e8ffa5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b4645ccb.js",
+    "static/css/2.79c08235.chunk.css",
+    "static/js/2.a6e8ffa5.chunk.js",
+    "static/css/main.2c8169cb.chunk.css",
+    "static/js/main.df428d89.chunk.js"
+  ]
+}
