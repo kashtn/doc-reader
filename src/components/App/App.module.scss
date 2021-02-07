@@ -13,10 +13,6 @@ img {
 .mainContainer {
   max-width: 1000px;
   height: 1000px;
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  transform: translateX(-50%);
   .contentContainer {
     max-width: 800px;
     height: 100%;
@@ -38,5 +34,14 @@ img {
       overflow: auto;
       border-top: 1px solid #ccc;
     }
+  }
+}
+
+@media (min-width: 800px) {
+  .mainContainer {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
