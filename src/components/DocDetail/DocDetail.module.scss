@@ -1,6 +1,5 @@
 .contentContainer {
   max-width: 800px;
-  max-height: 1000px;
   margin: 0 auto;
   border: 1px solid rgba(174, 174, 174, 0.619);
   border-radius: 10px;
@@ -12,8 +11,9 @@
     position: absolute;
     bottom: -40px;
   }
-  .infoContainer {
-    max-height: 350px;
+  .infoContainer,
+  .checksContainer,
+  .imagesContainer {
     width: 95%;
     margin: 0 auto;
     display: flex;
@@ -21,21 +21,26 @@
     overflow: auto;
     justify-content: space-around;
     padding-top: 20px;
+  }
+  .infoContainer {
+    max-height: 350px;
     .infoContent {
       width: 30%;
-      overflow: auto;
       max-height: 150px;
+      overflow: auto;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 0 5px;
+      margin-bottom: 10px;
+      h4 {
+        font-weight: bold;
+        font-size: 20px;
+        border-bottom: 1px solid #ccc;
+      }
     }
   }
   .checksContainer {
     max-height: 200px;
-    width: 95%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    overflow: auto;
-    justify-content: space-around;
-    padding-top: 20px;
     border-top: 1px solid #ccc;
     .checkContent {
       display: inline-flex;
@@ -43,6 +48,9 @@
       width: 30%;
       overflow: auto;
       margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 5px;
       h3 {
         margin-left: 5px;
       }
@@ -50,21 +58,14 @@
   }
   .imagesContainer {
     max-height: 450px;
-    width: 95%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    overflow: auto;
     border-top: 1px solid #ccc;
-    padding-top: 20px;
     .imageContent {
       width: 240px;
+      max-height: 250px;
       border: 1px solid rgba(174, 174, 174, 0.619);
       border-radius: 10px;
       margin-bottom: 10px;
       overflow: auto;
-      max-height: 250px;
       img {
         width: 240px;
         height: 180px;

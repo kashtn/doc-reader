@@ -38,7 +38,7 @@ export function DocList() {
       <div className={classes.docsContent}>
         <h3>Отсканированные ранее документы:</h3>
         {docs.map((doc) => (
-          <div className={classes.docContainer}>
+          <div key={doc.id} className={classes.docContainer}>
             <Link className={classes.link} to={`/document=${doc.id}`}>
               <p>{doc.name}</p>
             </Link>

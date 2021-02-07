@@ -4,7 +4,7 @@ import {
   VideoCameraFilled,
   CameraFilled,
 } from "@ant-design/icons";
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { Context } from "../../context";
 
 export function Settings({ interfaceFlag }) {

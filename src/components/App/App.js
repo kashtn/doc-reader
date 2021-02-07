@@ -1,6 +1,6 @@
 import classes from "./App.module.scss";
 import { useState } from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import { DocList } from "../DocList/DocList";
 import { Interface } from "../Interface/Interface";
 import { Settings } from "../Settings/Settings";
