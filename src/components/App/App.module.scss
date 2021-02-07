@@ -1,0 +1,42 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr,
+img {
+  margin: 0;
+}
+.mainContainer {
+  max-width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  .contentContainer {
+    max-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    border: 1px solid rgba(174, 174, 174, 0.619);
+    border-radius: 10px;
+    .interfaceContainer {
+      height: 80%;
+      .settingsContainer {
+        width: 90%;
+        height: 5%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+    .docsContainer {
+      height: 20%;
+      overflow: auto;
+      border-top: 1px solid #ccc;
+    }
+  }
+}

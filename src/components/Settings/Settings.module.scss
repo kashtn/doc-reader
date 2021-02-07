@@ -1,0 +1,17 @@
+.settingsContent {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  button {
+    border: 0;
+    background-color: transparent;
+    margin-left: 10%;
+    font-size: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  button:focus {
+    outline: none;
+  }
+}

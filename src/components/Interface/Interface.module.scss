@@ -1,0 +1,44 @@
+.interfaceContainer {
+  height: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd2psnlwnz982jj.cloudfront.net%2Fpages%2F14652-961102-e5a-passport-size.jpg&f=1&nofb=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+.controlsContainer {
+  display: flex;
+  height: 10%;
+  justify-content: space-around;
+}
+.switchContainer {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+}
+.iconContainer {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  .iconBtn {
+    color: darkred;
+    border: 0;
+    background-color: transparent;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .iconBtn:focus {
+    outline: none;
+  }
+}
+.galleryContainer {
+  width: 30%;
+}

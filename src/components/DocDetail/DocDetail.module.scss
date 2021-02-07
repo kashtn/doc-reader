@@ -1,0 +1,79 @@
+.contentContainer {
+  max-width: 800px;
+  max-height: 1000px;
+  margin: 0 auto;
+  border: 1px solid rgba(174, 174, 174, 0.619);
+  border-radius: 10px;
+  position: relative;
+  .link {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -40px;
+  }
+  .infoContainer {
+    max-height: 350px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: space-around;
+    padding-top: 20px;
+    .infoContent {
+      width: 30%;
+      overflow: auto;
+      max-height: 150px;
+    }
+  }
+  .checksContainer {
+    max-height: 200px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: space-around;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    .checkContent {
+      display: inline-flex;
+      height: 50px;
+      width: 30%;
+      overflow: auto;
+      margin-bottom: 10px;
+      h3 {
+        margin-left: 5px;
+      }
+    }
+  }
+  .imagesContainer {
+    max-height: 450px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: auto;
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    .imageContent {
+      width: 240px;
+      border: 1px solid rgba(174, 174, 174, 0.619);
+      border-radius: 10px;
+      margin-bottom: 10px;
+      overflow: auto;
+      max-height: 250px;
+      img {
+        width: 240px;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+      p {
+        margin: 0 10px;
+      }
+    }
+  }
+}
